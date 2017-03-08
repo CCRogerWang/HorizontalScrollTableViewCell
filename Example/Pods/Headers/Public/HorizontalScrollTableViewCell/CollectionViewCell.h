@@ -1,0 +1,1 @@
+../../../HorizontalScrollTableViewCell/HorizontalScrollTableViewCell/Classes/CollectionViewCell.h

@@ -22,7 +22,7 @@ pod "HorizontalScrollTableViewCell"
 
 ## Author
 
-roger77622@gmail.com
+roger77622@gmail.com, roger.wang@104.com.tw
 
 ## License
 

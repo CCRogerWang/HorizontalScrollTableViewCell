@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03C810FF4C7E54FD3B382FA2 /* Pods_HorizontalScrollTableViewCell_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F77C57B9392DAC74885BD8 /* Pods_HorizontalScrollTableViewCell_Tests.framework */; };
+		5AD071121B209A725CC840A1 /* libPods-HorizontalScrollTableViewCell_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F49A4F027906B9480A5BBE /* libPods-HorizontalScrollTableViewCell_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* CCWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CCWAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CCWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CCWViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		C7E843B4E05A63F0BFDB2FEB /* Pods_HorizontalScrollTableViewCell_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D8668A72A9468488EABD5A /* Pods_HorizontalScrollTableViewCell_Example.framework */; };
+		B08735F00F328420AA97EA4F /* libPods-HorizontalScrollTableViewCell_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A01057CD1C6E0F19DBDA45F /* libPods-HorizontalScrollTableViewCell_Tests.a */; };
 		DB34274B1E6FB6AD009CEB51 /* CollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3427431E6FB6AD009CEB51 /* CollectionViewItem.m */; };
 		DB34274C1E6FB6AD009CEB51 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3427441E6FB6AD009CEB51 /* CollectionViewItem.xib */; };
 		DB34274D1E6FB6AD009CEB51 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3427461E6FB6AD009CEB51 /* DemoViewController.m */; };
@@ -42,8 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36F77C57B9392DAC74885BD8 /* Pods_HorizontalScrollTableViewCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalScrollTableViewCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDEB20FDB274D4D58CB3AEE /* Pods-HorizontalScrollTableViewCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalScrollTableViewCell_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalScrollTableViewCell_Tests/Pods-HorizontalScrollTableViewCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		49F49A4F027906B9480A5BBE /* libPods-HorizontalScrollTableViewCell_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HorizontalScrollTableViewCell_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A01057CD1C6E0F19DBDA45F /* libPods-HorizontalScrollTableViewCell_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HorizontalScrollTableViewCell_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* HorizontalScrollTableViewCell_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalScrollTableViewCell_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,8 +54,6 @@
 		6003F59B195388D20070C39A /* HorizontalScrollTableViewCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HorizontalScrollTableViewCell-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CCWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCWAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CCWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCWAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* CCWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCWViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CCWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* HorizontalScrollTableViewCell_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalScrollTableViewCell_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,7 +77,6 @@
 		DB3427491E6FB6AD009CEB51 /* Type2Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type2Item.m; sourceTree = "<group>"; };
 		DB34274A1E6FB6AD009CEB51 /* Type2Item.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Type2Item.xib; sourceTree = "<group>"; };
 		E0D05B3DFAA6CB0661E4AFA0 /* Pods-HorizontalScrollTableViewCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalScrollTableViewCell_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HorizontalScrollTableViewCell_Example/Pods-HorizontalScrollTableViewCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F0D8668A72A9468488EABD5A /* Pods_HorizontalScrollTableViewCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalScrollTableViewCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +87,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				C7E843B4E05A63F0BFDB2FEB /* Pods_HorizontalScrollTableViewCell_Example.framework in Frameworks */,
+				5AD071121B209A725CC840A1 /* libPods-HorizontalScrollTableViewCell_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +98,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				03C810FF4C7E54FD3B382FA2 /* Pods_HorizontalScrollTableViewCell_Tests.framework in Frameworks */,
+				B08735F00F328420AA97EA4F /* libPods-HorizontalScrollTableViewCell_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +144,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F0D8668A72A9468488EABD5A /* Pods_HorizontalScrollTableViewCell_Example.framework */,
-				36F77C57B9392DAC74885BD8 /* Pods_HorizontalScrollTableViewCell_Tests.framework */,
+				49F49A4F027906B9480A5BBE /* libPods-HorizontalScrollTableViewCell_Example.a */,
+				5A01057CD1C6E0F19DBDA45F /* libPods-HorizontalScrollTableViewCell_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,17 +155,8 @@
 			children = (
 				6003F59C195388D20070C39A /* CCWAppDelegate.h */,
 				6003F59D195388D20070C39A /* CCWAppDelegate.m */,
-				DB3427421E6FB6AD009CEB51 /* CollectionViewItem.h */,
-				DB3427431E6FB6AD009CEB51 /* CollectionViewItem.m */,
-				DB3427441E6FB6AD009CEB51 /* CollectionViewItem.xib */,
-				DB3427451E6FB6AD009CEB51 /* DemoViewController.h */,
-				DB3427461E6FB6AD009CEB51 /* DemoViewController.m */,
-				DB3427471E6FB6AD009CEB51 /* DemoViewController.xib */,
-				DB3427481E6FB6AD009CEB51 /* Type2Item.h */,
-				DB3427491E6FB6AD009CEB51 /* Type2Item.m */,
-				DB34274A1E6FB6AD009CEB51 /* Type2Item.xib */,
-				6003F5A5195388D20070C39A /* CCWViewController.h */,
-				6003F5A6195388D20070C39A /* CCWViewController.m */,
+				DB3427521E6FDEA2009CEB51 /* View */,
+				DB3427511E6FDE95009CEB51 /* ViewController */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -215,6 +203,29 @@
 				78DF5E7523BC9BAE18EA8D91 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		DB3427511E6FDE95009CEB51 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB3427451E6FB6AD009CEB51 /* DemoViewController.h */,
+				DB3427461E6FB6AD009CEB51 /* DemoViewController.m */,
+				DB3427471E6FB6AD009CEB51 /* DemoViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DB3427521E6FDEA2009CEB51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB3427481E6FB6AD009CEB51 /* Type2Item.h */,
+				DB3427491E6FB6AD009CEB51 /* Type2Item.m */,
+				DB34274A1E6FB6AD009CEB51 /* Type2Item.xib */,
+				DB3427421E6FB6AD009CEB51 /* CollectionViewItem.h */,
+				DB3427431E6FB6AD009CEB51 /* CollectionViewItem.m */,
+				DB3427441E6FB6AD009CEB51 /* CollectionViewItem.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,7 +433,6 @@
 			files = (
 				6003F59E195388D20070C39A /* CCWAppDelegate.m in Sources */,
 				DB34274B1E6FB6AD009CEB51 /* CollectionViewItem.m in Sources */,
-				6003F5A7195388D20070C39A /* CCWViewController.m in Sources */,
 				DB34274D1E6FB6AD009CEB51 /* DemoViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				DB34274F1E6FB6AD009CEB51 /* Type2Item.m in Sources */,
@@ -508,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,7 +551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
