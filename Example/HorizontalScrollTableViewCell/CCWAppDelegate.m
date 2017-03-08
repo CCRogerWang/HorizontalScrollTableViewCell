@@ -7,12 +7,16 @@
 //
 
 #import "CCWAppDelegate.h"
+#import "DemoViewController.h"
 
 @implementation CCWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[DemoViewController alloc]init];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

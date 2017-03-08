@@ -1,0 +1,16 @@
+PODS:
+  - HorizontalScrollTableViewCell (0.1.0)
+
+DEPENDENCIES:
+  - HorizontalScrollTableViewCell (from `../`)
+
+EXTERNAL SOURCES:
+  HorizontalScrollTableViewCell:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HorizontalScrollTableViewCell: e11522dabf9f2200dca1655abc257aed68597e49
+
+PODFILE CHECKSUM: 395b78e403e1dbd4dfc623de9a92b1f9ffdbf042
+
+COCOAPODS: 1.1.1

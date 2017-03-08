@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/roger77622@gmail.com/HorizontalScrollTableViewCell'
+  s.homepage         = 'https://github.com/CCRogerWang/HorizontalScrollTableViewCell'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'roger77622@gmail.com' => 'roger.wang@104.com.tw' }
-  s.source           = { :git => 'https://github.com/roger77622@gmail.com/HorizontalScrollTableViewCell.git', :tag => s.version.to_s }
+  s.author           = { 'Roger Wang' => 'roger77622@gmail.com' }
+  s.source           = { :git => 'https://github.com/CCRogerWang/HorizontalScrollTableViewCell', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'Foundation','UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

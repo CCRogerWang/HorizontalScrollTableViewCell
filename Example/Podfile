@@ -1,11 +1,11 @@
 use_frameworks!
 
 target 'HorizontalScrollTableViewCell_Example' do
-  pod 'HorizontalScrollTableViewCell', :path => '../'
-
-  target 'HorizontalScrollTableViewCell_Tests' do
-    inherit! :search_paths
-
+    pod 'HorizontalScrollTableViewCell', :path => '../'
     
-  end
+    target 'HorizontalScrollTableViewCell_Tests' do
+        inherit! :search_paths
+        
+        
+    end
 end
